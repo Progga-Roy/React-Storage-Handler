@@ -19,7 +19,7 @@ const Cosmetics = () => {
             {/* <h2>My Cosmetics</h2>
             <p>Total : {total}</p> */}
          {
-            cosmetics.map(cosmetic=><Cosmetic key={cosmetic._id} cosmetic={cosmetic}></Cosmetic>)
+            cosmetics.map(cosmetic=><Cosmetic key={cosmetic.id} cosmetic={cosmetic}></Cosmetic>)
          }
 
         </div>

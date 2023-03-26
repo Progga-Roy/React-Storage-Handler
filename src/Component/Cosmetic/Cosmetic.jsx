@@ -1,18 +1,19 @@
 import React from 'react';
 import './Cosmetic.css'
+import { addToDb } from '../utilities/fakeDb';
 
 const Cosmetic = (props) => {
-    const {name,price,picture,_id} =props.cosmetic;
-    const addToCart=(_id)=>{
-       console.log('item added',_id)
+    const {name,price,picture,id} =props.cosmetic;
+    const addToCart=(id)=>{
+       addToDb(id)
     }
     return (
         <div className='cosmetic'>
             <h3>Name: {name}</h3>
             <img src={picture} alt="" />
-            <p>it has id:{_id}</p>
+            <p>it has id:{id}</p>
             <p>Price :{price}</p>
-            <button onClick={()=>{addToCart(_id)}}>Add to Cart</button>
+            <button onClick={()=>{addToCart(id)}}>Add to Cart</button>
             
         </div>
     );

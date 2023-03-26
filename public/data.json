@@ -1,31 +1,31 @@
 [
  
     {
-        "_id": "642080d402bece0e9e0cc2de",
+        "id": "642080d402bece0e9e0cc2de",
         "picture": "http://placehold.it/32x32",
         "price": 251,
         "name": "Lorena Daugherty"
       },
       {
-        "_id": "642080d40522f82fb268384f",
+        "id": "642080d40522f82fb268384f",
         "picture": "http://placehold.it/32x32",
         "price": 51,
         "name": "Foley Medina"
       },
       {
-        "_id": "642080d4c835a4626471836c",
+        "id": "642080d4c835a4626471836c",
         "picture": "http://placehold.it/32x32",
         "price": 115,
         "name": "Jewell Elliott"
       },
       {
-        "_id": "642080d460d804ca11b8c8f3",
+        "id": "642080d460d804ca11b8c8f3",
         "picture": "http://placehold.it/32x32",
         "price": 143,
         "name": "Guadalupe Pennington"
       },
       {
-        "_id": "642080d403c3397c54e4c251",
+        "id": "642080d403c3397c54e4c251",
         "picture": "http://placehold.it/32x32",
         "price": 320,
         "name": "Barry Hester"
